@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1544487575 source:e:\workspace\algorithms\3.5.2.1bfs_adjacencylist\main.cpp
+	<iostream>
+	<cstring>
+	<queue>
+

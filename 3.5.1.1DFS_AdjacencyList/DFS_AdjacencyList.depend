@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1544444039 source:e:\workspace\algorithms\dfs_adjacencylist\main.cpp
+	<iostream>
+	<cstring>
+
