@@ -1,0 +1,7 @@
+# depslib dependency file v1.0
+1546081870 source:e:\workspace\algorithms\5.5.1efficientclosestpair\main.cpp
+	<iostream>
+	<algorithm>
+	<math.h>
+	<vector>
+
