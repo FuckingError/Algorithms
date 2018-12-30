@@ -111,10 +111,10 @@ Pair ECP(Loca P[],int n){//EfficientClosestPair
         int k = 0;
         for(i=0;i<j-1;i++){
             k = i+1;
-            while(k<j&&(d = Distance(S[i],S[i+1]))<minP.distance){//这里d用来暂时存放距离
+            while(k<j&&(d = Distance(S[i],S[k++]))<minP.distance){//这里d用来暂时存放距离
                 minP.distance = d;
                 minP.p1 = S[i];
-                minP.p2 = S[i+1];
+                minP.p2 = S[k-1];
             }
         }
         return minP;
